@@ -25,7 +25,7 @@ CatBoost (best performing model)
 - Significant improvement in minority class (diabetic) recall after balancing
 - Comparative analysis shows ensemble methods outperform traditional models
 - Full performance metrics available in the paper
-- 
+  
 **Dependencies**
 - Python 3.8+
 - Libraries: pandas, numpy, scikit-learn, imbalanced-learn, catboost, xgboost
