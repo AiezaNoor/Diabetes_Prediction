@@ -9,10 +9,15 @@ This project focuses on developing an accurate diabetes prediction system using 
 - Data Preprocessing: Includes feature scaling, categorical encoding, and SMOTE for handling class imbalance (91,500 non-diabetic vs 8,500 diabetic cases).
 - Models: Evaluates multiple machine learning algorithms including:
 Random Forest
+
 Logistic Regression
+
 Gradient Boosting
+
 XGBoost
+
 CatBoost (best performing model)
+
 - Performance Metrics: Models evaluated on accuracy, precision, recall, and F1-score.
 
 **Results**
@@ -20,6 +25,7 @@ CatBoost (best performing model)
 - Significant improvement in minority class (diabetic) recall after balancing
 - Comparative analysis shows ensemble methods outperform traditional models
 - Full performance metrics available in the paper
+- 
 **Dependencies**
 - Python 3.8+
 - Libraries: pandas, numpy, scikit-learn, imbalanced-learn, catboost, xgboost
